@@ -5,14 +5,19 @@
 + Linha de solicitação(request line)
 
 Na linha de solicitação existe uma estrutura, da seguinte forma "HTTP-METHOD URI HTTP-PROTOCOL", especificando o "METHOD" que basicamente é o tipo de ação a ser realizada, seja ler ou enviar alguma, exemplo: "GET OU POST", o "URI" é o endereço onde se está localizado, exemplo: "/note/create", e o protocolo que o mais comum é "HTTP/1.1", exemplo: POST /note/create HTTP/1.1
+
 --------------------------------------
+
 + Cabeçalho da solicitação (Request header)
 
 Os cabeçalhos da solicitação é onde fica os cabeçalhos para serem enviados na solicitação para fornecer informações, exemplo onde preciso enviar as informações do token para acessar a rota, "Authorization: Bearer eyJhbGciOiJIUzI1NiI"
+
 --------------------------------------
+
 + Corpo (Body)
 
 Normalmente se usa o body mais em POST ou PUT por exemplo, basicamente são os dados enviados para aquela rota, como por exemplo enviar dados de um formulario para um rota POST e salvar esses dados
+
 --------------------------------------
 
 ## 2. Qual a diferença entre colocar um script dentro do "head" e no fim do "body"??
@@ -38,7 +43,9 @@ SIM, tem diferenças:
 + Constructor
 
 o "Arrow functions" não pode ser "constructors", então nao é possivel usar o operador "new"
+
 --------------------------------------
+
 + Arguments
 
 Arrow functions não possui o objeto array-like arguments.
@@ -48,14 +55,19 @@ var p = () => {
 }
 
 p(); // ReferenceError: arguments is not defined
+
 --------------------------------------
+
 + Nome de função
 
 Arrows Functions não podem ser nomeadas explicitamente, elas acabam herdando o nome da variável onde foi criada.
+
 --------------------------------------
+
 + Retorno
 
 Arrow Functions permitem escrever em um modelo encurtado onde a última expressão analisada será o retorno da função quando é omitido as chaves {}.
+
 --------------------------------------
 
 ## 7. Explique a lógica pra fazer uma paginação.
