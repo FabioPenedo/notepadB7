@@ -83,3 +83,5 @@ Posso criar uma pasta dentro do projeto com as imagens, e salvar o mesmo nome da
 ## 10. Quais métodos de requisição preciso para criar um CRUD via API?
 
 + "GET", "POST", "PUT", "DELETE"
+
+# <a href="https://github.com/FabioPenedo/notepadB7-frontend">Notepad (front end)</a> #
